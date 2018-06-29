@@ -1,0 +1,181 @@
+/* Arthkumar Desai*/
+
+    body {
+        margin: auto;
+        background: #eaeaea;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .info p {
+        text-align:center;
+        color: White;
+        text-transform:none;
+        font-weight:600;
+        font-size:15px;
+        margin-top:2px
+    }
+
+    .info i {
+        color:#F6AA93;
+    }
+    form h1 {
+        font-size: 18px;
+        background: #F6AA93 none repeat scroll 0% 0%;
+        color: rgb(255, 255, 255);
+        padding: 22px 25px;
+        border-radius: 5px 5px 0px 0px;
+        margin: auto;
+        text-shadow: none;
+        text-align:left
+    }
+
+    form {
+        border-radius: 5px;
+        max-width:700px;
+        width:100%;
+        margin: 5% auto;
+        background-color: #FFFFFF;
+        overflow: hidden;
+        marigin-top:5px;
+    }
+    
+    .form2 {
+        border-radius: 5px;
+        max-width:700px;
+        margin-top: -60px;
+        width:100%;
+        background-color: #FFFFFF;
+        overflow: hidden;
+    }
+
+    p span {
+        color: #F00;
+    }
+
+    p {
+        margin: 0px;
+        font-weight: 500;
+        line-height: 2;
+        color:#333;
+    }
+
+    h1 {
+        text-align:center;
+        color: #666;
+        text-shadow: 1px 1px 0px #FFF;
+        margin:25px 0px 0px 0px
+    }
+
+    input {
+        border-radius: 0px 5px 5px 0px;
+        border: 1px solid #eee;
+        margin-bottom: 15px;
+        width: 75%;
+        height: 40px;
+        float: left;
+        padding: 0px 15px;
+    }
+
+    a {
+        text-decoration:inherit
+    }
+
+    textarea {
+        border-radius: 0px 5px 5px 0px;
+        border: 1px solid #EEE;
+        margin: 0;
+        width: 75%;
+        height: 130px;
+        float: left;
+        padding: 0px 15px;
+    }
+
+    .form-group {
+        overflow: hidden;
+        clear: both;
+    }
+
+
+
+    i {
+        color:#555;
+    }
+
+    .contentform {
+        padding: 40px 30px;
+    }
+
+    .bouton-contact{
+        background-color: #81BDA4;
+        color: #FFF;
+        text-align: center;
+        width: 100%;
+        border:0;
+        padding: 17px 25px;
+        border-radius: 0px 0px 5px 5px;
+        cursor: pointer;
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    
+    
+    .bouton-contact2{
+        background-color: #81BDA4;
+	    color: #FFF;
+	    text-align: center;
+	    width: 700px;
+	    border: 0;
+	    top: 850px;
+	    padding: 17px 25px;
+	    border-radius: 5px 5px 5px 5px;
+	    cursor: pointer;
+	    font-size: 18px;
+	    position: absolute;
+    }
+
+    .leftcontact {
+        width:49.5%;
+        float:right;
+
+        box-sizing: border-box;
+        padding: 0px 15px 0px 0px;
+    }
+
+    .rightcontact {
+        width:49.5%;
+        float:right;
+        box-sizing: border-box;
+        padding: 0px 0px 0px 15px;
+    }
+
+    .uls {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    .active1 {
+        float: left;
+    }
+
+    .active {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .active:hover {
+        background-color: #111;
+    }
+    textarea {
+    	resize: none;
+		width: 300px;   
+		font-size: 18px;
+		height: 165px;
+	}
+.product_gallery{margin: 0 auto; width: 1100px; list-style: none;}
+.product_gallery li img{width: 298px; height: 200px; float: left}

@@ -1,0 +1,80 @@
+/* Arthkumar Desai*/
+.center {
+    margin: auto;
+    width: 50%;
+	text-align: center;
+    padding: 10px;
+}
+.dropbtn {
+	align-self: auto;
+    background-color: #008CBA;
+    color: white;
+    padding: 14px 40px;
+    font-size: 24px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100%;
+}
+.dropdown {
+	align-self: auto;
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+	align-self: auto;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 12px;
+    font-size: x-large;
+}
+.dropdown-content a {
+	align-self: auto;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+	border-radius: 12px;
+    display: block;
+}
+.dropdown-content a:hover {	background-color: #c0c0c0; }
+.dropdown:hover .dropdown-content {	display: block;	}
+.dropdown:hover .dropbtn { background-color: #008CBA; }
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

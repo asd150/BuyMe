@@ -1,0 +1,51 @@
+h1{
+	color:blue;
+	font-family: impact;
+	font-size: 100px;
+}
+h2{
+	color:blue;
+	font-family: impact;
+	font-size: 40px;
+}
+h3{
+	color:#0000a0;
+	font-family: Courier New;
+	font-size: 15px;
+}
+body{
+	text-align: center;
+	color: red;
+    background-color: lightblue;
+}
+input {
+	width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type = submit] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+.j {
+	display: inline-block;
+  	float: left;
+}

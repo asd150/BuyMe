@@ -1,0 +1,97 @@
+div.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+
+header {
+    padding: 3px;
+    color: black;
+    background-color: lightblue;
+    clear: left;
+    text-align: center;
+}
+/* footer {
+   position:absolute;
+   bottom: 0;
+   width:100%;
+   height:20px;   Height of the footer
+   text-align: center;
+   background-color: lightblue;
+} */
+
+article {
+    text-align: center;
+}
+/* Style the tab */
+.tab {
+	
+    float: left;
+    background-color: #f5f5f5;
+    width: 30%;
+    height: 0;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 65%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    
+}
+.tab1 {
+	position: relative;
+  	top: 30%;
+  	right: -25%;
+	vertical-align: middle;
+	float: left;
+    background-color: #f5f5f5;   
+    width: 50%;
+    height: 0;
+    
+}
+.tab1 button {	
+	display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 25%;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab1 button:hover {
+    background-color: #ddd;
+}
+.tab2 {
+	width: 500px;
+    padding: 5px;
+    border: 9px solid gray;
+ }
+ 
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+.tab1 button.active {
+    background-color: #ccc;
+}
